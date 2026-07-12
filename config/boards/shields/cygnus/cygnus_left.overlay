@@ -4,4 +4,4 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "bling.dtsi"
+#include "cygnus.dtsi"

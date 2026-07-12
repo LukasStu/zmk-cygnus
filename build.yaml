@@ -5,7 +5,7 @@
 # the `include` property, e.g:
 #
 # board: [ "nice_nano" ]
-# shield: [ "bling_left", "bling_right" ]
+# shield: [ "cygnus_left", "cygnus_right" ]
 # include:
 #   - board: bdn9_rev2
 #   - board: nice_nano
@@ -14,12 +14,12 @@
 ---
 include:
   - board: nice_nano//zmk
-    shield: bling dongle_display
+    shield: cygnus dongle_display
   - board: nice_nano//zmk
     shield: settings_reset
   - board: nice_nano//zmk
-    shield: bling_left
+    shield: cygnus_left
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: nice_nano//zmk
-    shield: bling_right
+    shield: cygnus_right
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n

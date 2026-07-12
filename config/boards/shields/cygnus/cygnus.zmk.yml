@@ -1,0 +1,11 @@
+file_format: "1"
+id: cygnus
+name: Cygnus v1 3x5
+type: shield
+url: https://github.com/DESTULUK/zmk-cygnus
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - cygnus_left
+  - cygnus_right
